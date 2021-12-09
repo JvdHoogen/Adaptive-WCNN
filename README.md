@@ -1,11 +1,11 @@
 [PAGE IN PROGRESS]
 
-# Adaptive-WCNN
+### Adaptive-WCNN
 
 This repository is supplementary to our paper "Classifying Multivariate Signals in Rolling Bearing Fault Detection Using Adaptive Wide-Kernel CNNs" published in MDPI Applied Sciences for reproducing our proposed models and their respective performance. In this repository, I will describe the models that I created plus the additional information on data processing and customized implementation on the proposed CNN architectures. 
 
 
-# Abstract
+### Abstract
 With the developments in improved computation power and the vast amount of (automatic) data collection, industry has become more data-driven. These data-driven 
 approaches for monitoring processes and machinery require different modeling methods focusing on automated learning and deployment. In this context, deep learning 
 provides possibilities for industrial diagnostics to achieve improved performance and efficiency. These deep learning applications can be used to automatically 
@@ -19,5 +19,44 @@ conditions of rolling bearing elements and their respective machine condition, w
 preprocessing. Thus, using a 1D CNN with an adaptive wide-kernel layer seems well-suited for fault detection and condition monitoring. In addition, this paper 
 clearly indicates the high potential performance of deep learning compared to traditional machine learning, particularly in complex multivariate and multi-class 
 classification tasks.
+
+
+### Citation
+When using our code, please cite our paper as follows:
+```
+@Article{app112311429,
+AUTHOR = {van den Hoogen, Jurgen and Bloemheuvel, Stefan and Atzmueller, Martin},
+TITLE = {Classifying Multivariate Signals in Rolling Bearing Fault Detection Using Adaptive Wide-Kernel CNNs},
+JOURNAL = {Applied Sciences},
+VOLUME = {11},
+YEAR = {2021},
+NUMBER = {23},
+ARTICLE-NUMBER = {11429},
+URL = {https://www.mdpi.com/2076-3417/11/23/11429},
+ISSN = {2076-3417},
+DOI = {10.3390/app112311429}
+}
+```
+
+
+
+### Requirements
+Usage of our code requires many packages to be installed on your machine. The most important packages are listed below:
+* Numpy
+* Tensorflow
+* Keras
+* Multivariate-cwru
+
+
+### Data
+The data is collected from the [Paderborn University][paderborn] and the [Case Western Reserve University][cwru] that represents several bearing fault detection experiments based on multivariate signals.
+Please consult the [`Multivariate CWRU`][multivariate_cwru] package description to extract and preprocess the CWRU dataset. 
+
+
+
+
+[cwru]: <https://csegroups.case.edu/bearingdatacenter/pages/welcome-case-western-reserve-university-bearing-data-center-website>
+[multivariate_cwru]: <https://github.com/JvdHoogen/multivariate_cwru>
+[paderborn]: <https://mb.uni-paderborn.de/en/kat/main-research/datacenter/bearing-datacenter/data-sets-and-download>
 
 
