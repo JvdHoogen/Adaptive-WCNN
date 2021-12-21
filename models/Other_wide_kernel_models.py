@@ -1,6 +1,6 @@
 #%%
 # Read imports and utility functions
-exec(open('imports_copy2.py').read())
+exec(open('import.py').read())
 
 ## PLEASE insert the model that you want to use
 ## The wda value determines which model you want to run, e.g., ("WDCNN","WDTCNN","WDMTCNN")
