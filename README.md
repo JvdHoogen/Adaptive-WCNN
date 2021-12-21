@@ -50,7 +50,7 @@ Usage of our code requires many packages to be installed on your machine. The mo
 
 ### Data
 The data is collected from the [Paderborn University][paderborn] and the [Case Western Reserve University][cwru] that represents several bearing fault detection experiments based on multivariate signals.
-Please consult the [`Multivariate CWRU`][multivariate_cwru] package description to extract and preprocess the CWRU dataset. 
+For more information on the processing of the two datasets, please contact the author or consult the [`Multivariate CWRU`][multivariate_cwru] package description to extract and preprocess for the CWRU dataset. 
 
 
 
