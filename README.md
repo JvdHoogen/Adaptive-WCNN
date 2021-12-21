@@ -2,7 +2,7 @@
 
 ### Adaptive-WCNN
 
-This repository is supplementary to our paper "Classifying Multivariate Signals in Rolling Bearing Fault Detection Using Adaptive Wide-Kernel CNNs" published in MDPI Applied Sciences for reproducing our proposed models and their respective performance. In this repository, I will describe the models that I created plus the additional information on data processing and customized implementation on the proposed CNN architectures. 
+This repository is supplementary to our paper "Classifying Multivariate Signals in Rolling Bearing Fault Detection Using Adaptive Wide-Kernel CNNs" published in MDPI Applied Sciences for reproducing our proposed models and their respective performance. In this repository, I will describe the models that I created plus the additional information on data processing and customized implementation on the proposed CNN architectures. For any questions, please feel free to contact me.
 
 
 
