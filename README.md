@@ -5,6 +5,9 @@
 This repository is supplementary to our paper "Classifying Multivariate Signals in Rolling Bearing Fault Detection Using Adaptive Wide-Kernel CNNs" published in MDPI Applied Sciences for reproducing our proposed models and their respective performance. In this repository, I will describe the models that I created plus the additional information on data processing and customized implementation on the proposed CNN architectures. 
 
 
+
+
+
 ### Abstract
 With the developments in improved computation power and the vast amount of (automatic) data collection, industry has become more data-driven. These data-driven 
 approaches for monitoring processes and machinery require different modeling methods focusing on automated learning and deployment. In this context, deep learning 
@@ -20,6 +23,9 @@ preprocessing. Thus, using a 1D CNN with an adaptive wide-kernel layer seems wel
 clearly indicates the high potential performance of deep learning compared to traditional machine learning, particularly in complex multivariate and multi-class 
 classification tasks.
 
+
+### How to use
+This repository contains a folder named "models". In this folder you will find two files. The files contain the full code for the Ada-WMCNN model and the other models used for our experiments. Preprocessing the data into sequences and a train and test set is necessary before utilizing the models. 
 
 ### Citation
 When using our code, please cite our paper as follows:
