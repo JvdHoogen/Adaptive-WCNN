@@ -25,7 +25,7 @@ classification tasks.
 
 
 ### How to use
-This repository contains a folder named "models". In this folder you will find two files. The files contain the full code for the Ada-WMCNN model and the other models used for our experiments. Preprocessing the data into sequences and a train and test set is necessary before utilizing the models. 
+This repository contains a folder named "models". In this folder you will find two files. The files contain the full code for the Ada-WMCNN model and the other models used for our experiments. Preprocessing the data into sequences and a train and test set is necessary before utilizing the models. Please contact me for any questions regarding the preprocessing scheme.  
 
 ### Citation
 When using our code, please cite our paper as follows:
